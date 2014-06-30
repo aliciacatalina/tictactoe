@@ -1,0 +1,27 @@
+{
+  "name": "isaki",
+  "description": "A super simple Grunt web skeleton",
+  "version": "0.0.1",
+  "keywords": [
+    "isaki",
+    "grunt",
+    "web",
+    "skeleton"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-compass": "~0.7.0",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-contrib-coffee": "~0.8.2",
+    "load-grunt-tasks": "~0.2.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/IcaliaLabs/isaki/blob/master/LICENSE"
+    }
+  ]
+}
