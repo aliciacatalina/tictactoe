@@ -107,13 +107,13 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
 
   //CSS distribution task.
-  grunt.registerTask('compile-compass', ['compass:development', 'cssmin']);
+  grunt.registerTask('compile-css', ['compass:development', 'cssmin']);
 
   //JS distribution task
   grunt.registerTask('compile-js', ['coffee:compile', 'concat', 'uglify', 'clean:js']);
 
   //Package for production
-  grunt.registerTask('deploy', ['compile-js', 'compile-compass']);
+  grunt.registerTask('deploy', ['compile-js', 'compile-css']);
   
   //Lift the server
   grunt.registerTask('server', ['concurrent:server'])
