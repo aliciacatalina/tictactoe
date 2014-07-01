@@ -1,0 +1,17 @@
+# Permalinks
+permalink: pretty
+
+# Server config
+source: templates
+destination: app 
+baseurl: /
+host: 0.0.0.0
+port: 9001
+url: http://localhost
+encoding: UTF-8
+
+# Custom config
+# current_version: 3.0.3
+# repo: https://github.com/IcaliaLabs/furatto
+
+# current_ip: 192.168.0.10
