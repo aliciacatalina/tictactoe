@@ -67,7 +67,7 @@ Thanks!
 
 Keep track of new feautres, development issues and community news.
 
-* Follow [@furattoicalia](https://twitter.com/furattoicalia)
+* Follow [@icalialabs](https://twitter.com/icalialabs)
 * Have a question about anything, email us at weare@icalialabs.com
 
 
