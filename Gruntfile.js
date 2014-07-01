@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         src: [
           "app/assets/javascripts/*.js"          
         ],
-        dest: "app/assets/javascrtips/application.tmp.js"
+        dest: "app/assets/javascripts/application.tmp.js"
       }
     },
 
@@ -47,7 +47,7 @@ module.exports = function(grunt) {
     cssmin: {
       minify: {
         expand: true,
-        cwd: 'app/assets/stylesheets',
+        cwd: 'templates/assets/stylesheets',
         src: ["application.css", "application.min.css"],
         dest: "app/assets/stylesheets",
         ext: ".min.css"
@@ -107,7 +107,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt, {scope: 'devDependencies'});
 
   //CSS distribution task.
-  grunt.registerTask('compile-compass', ['compass:dist', 'cssmin']);
+  grunt.registerTask('compile-compass', ['compass:development', 'cssmin']);
 
   //JS distribution task
   grunt.registerTask('compile-js', ['coffee:compile', 'concat', 'uglify', 'clean:js']);
