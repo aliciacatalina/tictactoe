@@ -1,0 +1,43 @@
+/* line 1, ../../../sass/application.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../../../sass/application.scss */
+body {
+  background: #f7f7f7;
+  font-family: 'Paytone One', sans-serif;
+}
+/* line 11, ../../../sass/application.scss */
+body h1, body h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* line 17, ../../../sass/application.scss */
+.blue, table td.human {
+  color: #68AB9D;
+}
+
+/* line 21, ../../../sass/application.scss */
+table {
+  margin: 0 auto;
+  position: relative;
+}
+/* line 25, ../../../sass/application.scss */
+table td {
+  border-collapse: separate;
+  cursor: pointer;
+  margin: 0;
+  padding: 50px;
+}
+/* line 35, ../../../sass/application.scss */
+table td[data-col='0'], table td[data-col='1'] {
+  border-right: 3px solid gray;
+}
+/* line 39, ../../../sass/application.scss */
+table td[data-row='0'], table td[data-row='1'] {
+  border-bottom: 3px solid gray;
+}
